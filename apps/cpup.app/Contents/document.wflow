@@ -161,12 +161,10 @@ end run</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>/usr/local/bin/terminal-notifier -message "test" -sender "com.apple.automator.cp up" -title "VPN connected"
-exit 0
-KEYCHAIN_ITEM="ad password"
+					<string>KEYCHAIN_ITEM="#KEYCHAIN#"
 SERVER="#SERVER#"
 NOTIFY="#NOTIFY#"
-SENDER="com.apple.automator.cp up"
+SENDER="com.apple.automator.cpup"
 OK_ICON="$1/Contents/Images/ok-32.png"
 FAILED_ICON="$1/Contents/Images/x-mark-3-32.png"
 SNX="#SNX#"
@@ -300,7 +298,7 @@ fi</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>639.500000:838.000000</string>
+				<string>639.500000:797.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -310,7 +308,7 @@ fi</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>4F6CD69A-87A5-40EB-9C67-ADEC4B64D592</key>
+		<key>A90A8364-B8D8-40D3-B458-8FBCB4B82B78</key>
 		<dict>
 			<key>from</key>
 			<string>7A9ABCC3-4014-41FB-9F2D-F2AD23DFF7E3 - 7A9ABCC3-4014-41FB-9F2D-F2AD23DFF7E3</string>
