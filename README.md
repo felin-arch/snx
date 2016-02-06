@@ -3,9 +3,9 @@ The goal of the project is to ease the pain of using snx on OSX. It's built on t
 
 ## Getting started
 1. Install homebrew (http://brew.sh)
-2. Add my tap (...)
+2. Add my tap using `brew tap felin-arch/brew`
 3. Install using `brew install snx`
-4. During the install it'll ask for 3 things, the server you will use it with, the username you will use, the name of the keychain item which holds the password
+4. During the install it'll ask for 3 things, the `server` you will use it with, the `username` you will use, the name of the `keychain item` which holds the password
 5. Once installed initiate a manual connection to verify the certificate
 
 ## What it does
