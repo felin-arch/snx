@@ -27,3 +27,4 @@ The goal of the project is to ease the pain of using snx on OSX. It's built on t
 ## Troubleshooting
 - Make sure you can initiate a connection from the CLI (`snx -s [SERVER] -u [USERNAME]`).
 - Make sure the Keychain item is accessible by the `security` binary.
+- If all else fails, try to reinstall with `brew install snx`.
